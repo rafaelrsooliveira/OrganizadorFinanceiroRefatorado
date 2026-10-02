@@ -15,7 +15,7 @@ public class DespesasNaoRecorrentes {
     }
     
     // calcular o valor total das parcelas
-    public double calcularParcelas() {
+    public double calcularTotalParcelado() {
         return (valorMensal * qtdeParcelas);
     }
        

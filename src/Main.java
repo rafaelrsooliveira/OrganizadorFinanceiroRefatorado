@@ -97,7 +97,7 @@ public class Main {
                     new DespesasNaoRecorrentes("Laptop", 340.00, (byte) 10);
             despesaService.cadastrarNaoRecorrente("pedro", smartTV);
             System.out.println("    :) Despesa cadastrada. Total: R$ "
-                    + String.format("%,.2f", smartTV.calcularParcelas()));
+                    + String.format("%,.2f", smartTV.calcularTotalParcelado()));
         } catch (Exception e) {
             System.out.println("    :( Erro: " + e.getMessage());
         }
